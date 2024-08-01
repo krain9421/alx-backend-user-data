@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Module for defining filter logger function"""
+"""
+Module for defining filter logger function that filters data in a string
+"""
 import re
 from typing import List
 
