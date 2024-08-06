@@ -3,7 +3,7 @@
 Basic Authentication module for implenting Authentication
 """
 from typing import List, TypeVar
-from flask import rerquest
+from flask import request
 
 
 class Auth:
