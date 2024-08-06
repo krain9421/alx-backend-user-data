@@ -6,7 +6,7 @@ from typing import List, TypeVar
 from flask import rerquest
 
 
-class Auth():
+class Auth:
     """
     Class template for authentication system
     """
