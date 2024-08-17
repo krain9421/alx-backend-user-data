@@ -53,7 +53,7 @@ def before_request_auth():
     Executed before request is processed
     """
     excluded_paths = ['/api/v1/status/',
-            '/api/v1/unauthorized/', '/api/v1/forbidden/']
+                      '/api/v1/unauthorized/', '/api/v1/forbidden/']
     if auth is None:
         return
     if not auth.require_auth(request.path, excluded_paths):
